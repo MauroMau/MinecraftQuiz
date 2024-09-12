@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Minecraft Quiz</h1>
+        <div class="progress-bar" id="progress-bar"></div>
+
+        <div class="quiz-question" id="question-1">
+            <p>1. Was brauchst du, um ein Netherportal zu aktivieren?</p>
+            <label><input type="radio" name="q1" value="Wasser"> Wasser</label>
+            <label><input type="radio" name="q1" value="Feuerzeug"> Feuerzeug</label>
+            <label><input type="radio" name="q1" value="Diamant"> Diamant</label>
+        </div>
+
+        <div class="quiz-question" id="question-2">
+            <p>2. Welches Monster kann im Tageslicht nicht verbrennen?</p>
+            <label><input type="radio" name="q2" value="Zombie"> Zombie</label>
+            <label><input type="radio" name="q2" value="Creeper"> Creeper</label>
+            <label><input type="radio" name="q2" value="Skelett"> Skelett</label>
+        </div>
+
+        <div class="quiz-question" id="question-3">
+            <p>3. Welches Material wird benötigt, um eine Werkbank zu bauen?</p>
+            <label><input type="radio" name="q3" value="Stein"> Stein</label>
+            <label><input type="radio" name="q3" value="Holzplanken"> Holzplanken</label>
+            <label><input type="radio" name="q3" value="Eisenbarren"> Eisenbarren</label>
+        </div>
+
+        <button id="submit-btn">Ergebnisse anzeigen</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
